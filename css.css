@@ -154,11 +154,7 @@ input{
 	padding: 0.5em;
 	margin-top: 0.5em;
 }
-@media screen and (max-width: 600px) {
-	.hero-img{
-		width:100%;
-		height:auto;
-		}
+@media screen and (max-width: 768px) {
 	
 	.nav{
 		flex-direction: column;
@@ -169,6 +165,10 @@ input{
 	.navbar-items{
 		text-align: center;
 		flex-direction: column;
+		padding-bottom: 5px;
+	}
+	.nav-item{
+		padding-bottom: 4px;
 	}
 
 
@@ -187,7 +187,8 @@ input{
         transform: scale(0.8);
 }
   }
- @media screen and (min-width: 769px ) and (max-width: 1200px) {
+
+@media screen and (min-width: 769px ) and (max-width: 1200px) {
 	.nav{
 		flex-direction: column;
 		height: auto;
